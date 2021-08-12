@@ -1,0 +1,31 @@
+plugins {
+  id 'java'
+  id 'application'
+  id 'org.openjfx.javafxplugin' version '0.0.10'
+}
+
+group 'cloud.tavitian'
+version '1.0-SNAPSHOT'
+
+repositories {
+  mavenCentral()
+}
+
+tasks.withType(JavaCompile) {
+  options.encoding = 'UTF-8'
+}
+
+application {
+  mainModule = 'cloud.tavitian.provenance'
+  mainClass = 'cloud.tavitian.provenance.ProvenanceApplication'
+}
+
+javafx {
+  version = '16'
+  modules = ['javafx.controls', 'javafx.fxml']
+}
+
+dependencies {
+  implementation 'org.apache.httpcomponents:fluent-hc:4.5.13'
+  implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.0-rc1'
+}

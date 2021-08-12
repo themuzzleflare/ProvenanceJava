@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.Tab?>
+
+<TabPane fx:id="tabPane"
+         fx:controller="cloud.tavitian.provenance.controllers.TabPaneController"
+         xmlns:fx="https://javafx.com/fxml">
+  <Tab fx:id="transactionsTab"
+       text="Transactions"
+       closable="false">
+    <fx:include fx:id="transactions"
+                source="transactionsView.fxml"/>
+  </Tab>
+  <Tab fx:id="accountsTab"
+       text="Accounts"
+       closable="false">
+    <fx:include fx:id="accounts"
+                source="accountsView.fxml"/>
+  </Tab>
+  <Tab fx:id="tagsTab"
+       text="Tags"
+       closable="false">
+    <fx:include fx:id="tags"
+                source="tagsView.fxml"/>
+  </Tab>
+  <Tab fx:id="categoriesTab"
+       text="Categories"
+       closable="false">
+    <fx:include fx:id="categories"
+                source="categoriesView.fxml"/>
+  </Tab>
+  <Tab fx:id="aboutTab"
+       text="About"
+       closable="false">
+    <fx:include fx:id="about"
+                source="aboutView.fxml"/>
+  </Tab>
+</TabPane>

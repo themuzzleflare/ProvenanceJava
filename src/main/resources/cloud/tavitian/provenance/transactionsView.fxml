@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+
+<ListView xmlns:fx="https://javafx.com/fxml"
+          fx:id="listView"
+          fx:controller="cloud.tavitian.provenance.controllers.TransactionsController"/>
