@@ -3,4 +3,9 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="16" />
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Provenance.main" options="--add-exports java.desktop/com.apple.eawt=cloud.tavitian.provenance" />
+    </option>
+  </component>
 </project>
