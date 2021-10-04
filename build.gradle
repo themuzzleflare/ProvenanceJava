@@ -27,5 +27,5 @@ javafx {
 
 dependencies {
   implementation 'org.apache.httpcomponents:fluent-hc:4.5.13'
-  implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.0-rc1'
+  implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.0-rc2'
 }
