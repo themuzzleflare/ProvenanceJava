@@ -2,6 +2,8 @@
 
 <?import javafx.scene.layout.VBox?>
 
+<!-- Copyright © 2021 Paul Tavitian -->
+
 <VBox xmlns="http://javafx.com/javafx"
       xmlns:fx="http://javafx.com/fxml"
       fx:controller="cloud.tavitian.provenance.controllers.AboutController"/>

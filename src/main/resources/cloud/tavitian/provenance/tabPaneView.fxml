@@ -3,6 +3,8 @@
 <?import javafx.scene.control.TabPane?>
 <?import javafx.scene.control.Tab?>
 
+<!-- Copyright © 2021 Paul Tavitian -->
+
 <TabPane fx:id="tabPane"
          fx:controller="cloud.tavitian.provenance.controllers.TabPaneController"
          xmlns:fx="https://javafx.com/fxml">

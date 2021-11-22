@@ -1,3 +1,5 @@
+// Copyright © 2021 Paul Tavitian
+
 package cloud.tavitian.provenance.controllers;
 
 import javafx.fxml.FXML;

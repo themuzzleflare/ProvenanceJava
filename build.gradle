@@ -1,3 +1,5 @@
+// Copyright © 2021 Paul Tavitian
+
 plugins {
   id 'java'
   id 'application'
@@ -27,5 +29,5 @@ javafx {
 
 dependencies {
   implementation 'org.apache.httpcomponents:fluent-hc:4.5.13'
-  implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.0-rc2'
+  implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.0'
 }
